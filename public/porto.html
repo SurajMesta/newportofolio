@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Poiret+One&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- <script src="typed.min.js" type="text/javascrpt"></script> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="nav-cont">
+
+                <div class="icon">
+                    <span><i class="fab fa-css3 fa-2x icon-sym"></i></span>
+                </div>
+
+                <div class="nav-list">
+                 <ul class="nav-ul">
+                
+                 <li><a href="#projects"><span><i class="fas fa-tasks fa-2x fa-icon"></i></span>Projects</a></li>
+                 <li><a href="mailto:darshanmesta33@gmail.com"><span><i class="fas fa-envelope-open fa-2x fa-icon"></i></span>Contact</a></li>
+               
+                 </ul>
+                </div>
+
+                <div class="bars">
+                    <span><i class="fas fa-bars fa-2x fa-mob-bars" style="color: azure;"></i></span>
+                </div>
+            </div>
+            
+        </nav>
+
+        <ul class="next-ul">
+
+            <li><a href="#projects"><span><i class="fas fa-tasks fa-2x fa-icon-next"></i></span>Projects</a></li>
+            <li><a href="mailto:darshanmesta33@gmail.com"><span><i class="fas fa-envelope-open fa-2x fa-icon-next"></i></span>Contact</a></li> 
+            
+        </ul>
+    </header>
+
+    <div class="info">
+        <div class="inner-div">
+            <p  class="p1" style="color: snow;"> Hello My Name is Darshan</p>
+            <section class="inner-sec">
+                <p class="p2" style="color: snow;"> I AM A <span id="sp1" style="color:tomato;font-weight: bolder;"></span></p>
+            </section>
+         
+        </div>
+
+
+    </div>
+
+    <div class="projects" id="projects">
+        <p class="pro-p1" style="text-align: center;font-family: 'Indie Flower', cursive;">My-Projects</p>
+
+        <div class="pro-div">
+            
+            <div class="pro1-div">
+
+                <div class="butt-div">
+                    <button class="butt-divs"><span style="margin: 0px 5px;"><i class="fab fa-github "></i></span><a href="https://github.com/SurajMesta/IndiaCovid19" target="_blank" style="text-decoration: none;">GitHub</a></button>
+                    <button id="about"  class="butt-divs"><span style="margin: 0px 5px;"><i class="fas fa-info-circle "></i></span>About</button>
+                  <button class="butt-divs">  <span style="margin: 0px 5px;"><i class="fas fa-eye "></i></span><a href="https://covidtrackerindia2020.herokuapp.com" target="_blank" style="text-decoration: none;">Visit Project</a></button>
+                </div>
+
+                <div class="about active1">
+
+                    <p style=" font-family: 'Poiret One', cursive;font-weight: bolder;font-size: 1.5rem;">Projectname: Covid tracker for India and it's states</p>
+
+                    <p style="font-family: 'Poppins', sans-serif;margin: 10px 5px;background-color:#f5f1da;">
+                        <em>
+                            This project has been built Using ReactJS. The Date for the project has been fetched from an online serving API. The data has been represented in the form of different charts.
+                            Initially when the User lands on the Page the total data for India Including Confirmed, Recovered , And Deaths will be displayed to the User. The User then have got the previlage
+                            to Select Different States from the State Dropdown. The Values for the Dropdown are also fetched from the API. As soon as the User selects the state
+                            the Respective districts of the state selected will be displayed to the User. Once the User selects the District values from the District Dropdown Confirmed Number of Cases will be displayed.
+                            Whenever Users Cahnges the State value from the dropdown the Charts will also get refreshed for those corresponding State Values.
+                        </em>
+                   
+                </p>
+                    
+                </div>
+                <iframe src="https://covidtrackerindia2020.herokuapp.com/" frameborder="0"></iframe>
+            </div>
+
+            <section class="seperator">
+
+            </section>
+
+
+
+
+            <div class="pro2-div">
+
+                <div class="butt-div">
+                    <button class="butt-divs"><span style="margin: 0px 5px;"><i class="fab fa-github "></i></span><a href="https://github.com/SurajMesta/ReactFulltype" style="text-decoration: none;" target="_blank">Github</a></button>
+                    <button id="about1"  class="butt-divs"><span style="margin: 0px 5px;"><i class="fas fa-info-circle "></i></span>About</button>
+                  <button class="butt-divs">  <span style="margin: 0px 5px;"><i class="fas fa-eye "></i></span><a href="https://reactquiztype.herokuapp.com" style="text-decoration: none;" target="_blank">Visit Project</a></button>
+                </div>
+
+                <div class="about1 active1">
+
+                    <p style=" font-family: 'Poiret One', cursive;font-weight: bolder;font-size: 1.5rem;">Projectname: React-Quiz-App</p>
+
+                    <p style="font-family: 'Poppins', sans-serif;margin: 10px 5px;background-color:#f5f1da;">
+                        <em>
+                         This is a Complete Fullstack project (MERN) and Typescript. The Data for the application has been fetched from an online Quiz API.
+                         In Order to get access to the Quiz Section Users first need to register themselves and once successful signup users will recieve a confirmation email.
+                         Users also have the previlage to reset their password if they have forgotten the password and then can proceed with the login.
+                         Routes of the Application are secured i.e if the user doesn't login and want to see the Home Page he will be straightaway redirected to Signin Page
+                         and if the User is Logged in and want to go to Signup page then only option is to logout and if user tries to access the Signup /Signin route he will be straightaway redirected to Home Page.
+
+                         Backend of the Application is designed using Node and Express and Frontend is done with React (Typescript and Redux ).
+                         
+                        </em>
+                   
+                </p>
+                    
+                </div>
+                <iframe  src="https://reactquiztype.herokuapp.com" frameborder="0"></iframe>
+            </div>
+
+            
+            <section class="seperator">
+
+            </section>
+           
+        </div>
+    </div>
+    
+    <div id="contact">
+        <div class="address">
+            <p><span><i class="fas fa-map-marker-alt fa-2x"></i></span></p>
+            <p>ADDRESS</p>
+            <p>RajajiNagar Bangalore-560021</p>
+        </div>
+        <div class="phone">
+            <p><span><i class="fas fa-phone-alt fa-2x"></i></span></p>
+            <p>PHONE</p>
+            <p>+91 8861772715</p>
+        </div>
+        <div class="email">
+            <p><span><i class="fas fa-envelope fa-2x"></i></span></p>
+            <p>EMAIL</p>
+            <p>darshanmesta33@gmail.com</p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="social-media">
+
+            <div class="soc-icons">
+                <p><span><a href="https://www.facebook.com/darshanmesta33" target="_blank"><i class="fab fa-facebook  fa-2x soc-ic"></i></a></span></p>
+                <p><span><a href="https://twitter.com/darshanmesta2" target="_blank"><i class="fab fa-twitter fa-2x soc-ic"></i></a></span></p>
+                <p><span><a href="https://www.linkedin.com/public-profile/in/darshan-m" target="_blank"><i class="fab fa-linkedin-in fa-2x soc-ic"></i></a></span></p>
+    
+            
+            </div>
+        </div>
+        <p style="color:snow;text-align: center;font-family: 'Inconsolata', monospace;">© 2020. Darshan. All Rights Reserved.</p>
+    </footer>
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+  <script >
+     
+   
+    
+        var typed= new Typed('#sp1',{
+         strings:[
+           
+             'PROGRAMMER',
+             'FULLSTACK-DEVELOPER'
+         ],
+
+         typeSpeed:70,
+         backSpeed:70,
+         backDelay: 3000,
+         loop:true,
+         loopCount: Infinity,
+         autoInsertCSS: true
+
+
+     
+
+      })
+
+
+
+
+
+
+
+
+      
+  $(document).ready(function(){
+
+
+    
+
+      $('.fa-mob-bars').on('click',function(){
+          $('.next-ul').toggleClass('active')
+      })
+
+      $('#about').on('click',function(){
+          $('.about').toggleClass('active1')
+      })
+
+      $('#about1').on('click',function(){
+          $('.about1').toggleClass('active1')
+      })
+
+
+  })
+
+
+
+  </script>
+</body>
+</html>

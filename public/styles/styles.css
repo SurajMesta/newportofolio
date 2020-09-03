@@ -1,0 +1,416 @@
+*{
+    margin: 0;
+    padding:0
+
+}
+
+/*Header section styles*/
+
+.navbar{
+
+    /* background: linear-gradient(to right, #c94b4b, #4b134f); */
+  
+    /* background: linear-gradient(to right, #41295a, #2f0743); */
+    background: linear-gradient(to right, #41295a, #2f0743);
+
+   
+    
+}
+
+
+
+.icon-sym{
+    color: snow;
+    margin-left: 35px;
+  
+    
+}
+
+.icon{
+   
+    flex: 0.5;
+    margin: 5px 0px;
+    
+  
+}
+
+.fa-icon{
+    margin-right: 5px;
+    padding: 2px;
+}
+
+.nav-cont{
+   
+    margin: 5px 15px;
+    display: flex;
+    justify-content:space-around
+    
+}
+
+
+.nav-ul{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+     flex: 1;
+    margin: 5px 0px;
+    padding: 2px;
+    
+}
+
+.bars{
+    margin: 5px 0px;
+    display: none;
+}
+
+.nav-ul li{
+list-style-type: none;
+margin: 0px 5px;
+}
+
+.nav-ul li a{
+    text-decoration: none;
+    color: snow;
+}
+
+.nav-ul :hover{
+    background-color: tomato;
+    transition: 1s;
+ 
+    
+}
+
+/*next-ul on mobile*/
+
+.next-ul{
+    width:100%;
+    text-align: center;
+    display: none;
+      
+/* background: linear-gradient(to right, #24243e, #302b63, #0f0c29);*/
+  /* background: linear-gradient(to right, #3c3b3f, #605c3c); */
+  background: linear-gradient(to right, #41295a, #2f0743);
+} 
+
+.next-ul li{
+    list-style-type: none;
+    color: snow;
+    margin-bottom: 5px;
+    transition: all 1s;
+}
+.next-ul li a{
+    color:snow;
+    text-decoration: none;
+}
+
+.fa-icon-next{
+    color:snow;
+    margin-right:15px;
+}
+
+.next-ul li:hover{
+    background-color: tomato;
+}
+/*next-ul on mobile*/
+
+.active{
+    display: block;
+    transition: all 1s;
+}
+
+/* Header section ends */
+
+
+
+/*info section begins*/
+.info{
+    /* background: url('https://cdn.hipwallpaper.com/i/33/25/SvwsIm.jpg'); */
+ /*    background: url('https://previews.123rf.com/images/peshkova/peshkova1803/peshkova180300363/96797701-creative-html-wallpaper-coding-programming-and-technology-concept-double-exposure.jpg'); */
+    background: url('https://3.bp.blogspot.com/-NiSGyTtyc1I/WAoCX71Zn4I/AAAAAAAADsU/ldlp6hNBdskjLnMlM4lN1q0GdO9pjYTjgCLcB/s1600/Coding%2Bbackgrounds%2B41.jpg');
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.8;
+    
+    
+   
+    
+}
+
+.inner-div{
+    text-align: center;
+ 
+    margin: 10px 75px;
+    padding:10px 5px;
+   
+}
+.inner-sec{
+    text-align: center;
+    margin: 10px 75px;
+    padding:10px 5px;
+}
+
+.p1{
+    font-weight: bolder;
+    font-size: 1.2rem;
+    font-family: 'Poiret One', cursive;
+    margin-top:15px;
+    
+}
+
+.p2{
+    font-weight: bolder;
+    font-size: 1.5rem;
+    font-family: 'Poiret One', cursive;
+    margin-top:15px;
+
+}
+
+
+
+
+
+/*info ends*/
+
+
+/*Project starts*/
+.pro-p1{
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.pro-div{
+  
+ 
+  
+    padding: 10px;
+    margin: 10px 50px;
+
+}
+
+.pro1-div > iframe{
+    width: 100%;
+    height: 400px;
+}
+
+.butt-div{
+    margin: 10px 5px;
+}
+
+.butt-divs{
+    padding: 10px 8px;
+    border: none;
+    border-radius: 500px;
+    margin: 0px 5px;
+    outline: none;
+   
+}
+
+.about{
+    margin: 20px;
+    text-align: justify;
+
+   
+}
+
+.active1{
+    display: none;
+}
+
+
+
+
+.seperator{
+    width: 20%;
+    margin: auto;
+    border-top:none;
+    border-bottom: 3px dotted grey;
+    margin-top: 85px;
+    margin-bottom: 85px;
+    
+}
+
+.pro2-div > iframe{
+    width: 100%;
+    height: 400px;
+}
+
+/*Project Ends*/
+
+/*Contact begins*/
+
+#contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid yellowgreen;
+    margin-left:15px;
+    margin-right:35px;
+}
+
+.address , .phone , .email{
+    text-align: center;
+   
+}
+.address p , .phone p , .email p{
+    margin: 15px;
+     font-family: 'Poiret One', cursive;
+     font-weight: bolder;
+     font-size: 1.2rem;
+   
+}
+
+/*Contact Ends*/
+
+/*Social Media Starts*/
+.social-media{
+  margin-top:100px;
+  margin-bottom: 25px;
+
+
+
+   
+}
+.soc-icons{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly ; 
+     
+    text-align: center;
+    display: flex;
+   
+    
+    
+}
+
+.soc-icons > p{
+  
+    margin-right:0px;
+    padding: 5px;
+}
+
+.soc-ic{
+    color: snow;
+  
+}
+/*Social Media Ends*/
+
+
+
+/*footer begins*/
+footer{
+    background: linear-gradient(to right, #403a3e, #be5869);
+    height: 100px;
+
+}
+/*footer ends*/
+
+
+
+
+
+
+
+
+
+
+/*mobile Screens*/
+@media (min-width:0px) and (max-width:767px){
+    .bars{
+        display: block;
+    }
+
+    .nav-ul{
+        display: none;
+    }
+
+    .info{
+        height: 250px;
+
+    }
+
+    .butt-div{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        margin: 0 10px;
+        
+        
+       
+       
+    }
+
+    .butt-divs{
+        padding:5px;
+        margin-bottom: 5px;
+        width: 100%;
+        border-radius: 0%;
+        text-align: center;
+        
+       
+        
+    }
+
+    .p1{
+        font-weight: bolder;
+        font-size: 0.8rem;
+        font-family: 'Poiret One', cursive;
+        margin-top:15px;
+        
+    }
+
+    .inner-sec{
+        width: 100%;
+        margin: 2px 0px;
+    }
+    
+    .p2{
+        font-weight: bolder;
+        font-size: 1rem;
+        font-family: 'Poiret One', cursive;
+        margin-top:15px;
+    
+    }
+
+    .pro-div{
+        width: 100%;
+        margin:auto;
+    }
+
+    .pro1-div > iframe{
+        width: 100%;
+        height: 300px;
+        margin: 10px 0px;
+    }
+
+    .pro2-div > iframe{
+        width: 100%;
+        height: 300px;
+        margin: 10px 0px;
+    }
+
+    #contact{
+        display: block;
+        margin: auto;
+        border:none;
+        
+    }
+
+    .address p , .phone p , .email p{
+          margin: 15px;
+         font-family: 'Poiret One', cursive;
+         font-weight: bolder;
+         font-size: 1rem;
+       
+    }
+}
+
+@media(min-width:768px){
+    .next-ul{
+        display: none;
+
+    }
+}
+
